@@ -1,20 +1,70 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌍 WorldAtlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WorldAtlas is a modern **React + Vite** web application that displays information about countries around the world, including capitals, populations, and interesting facts, presented with a clean UI and interactive flip-card animations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Built using **React** and **Vite**
+- Fast development with **Hot Module Reloading (HMR)**
+- Interactive flip-card UI for country details
+- Responsive and modern design
+- Easy to set up and extend
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# WorldAtlas
->>>>>>> 65d955d5bf83f8d976b25e9fcfda24ef6f46b815
+## 📦 Getting the Source Code
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Chirag7987/WorldAtlas.git
+2️⃣ Navigate to the Project Folder
+cd WorldAtlas/world_atlas_proj
+▶️ Install Dependencies
+
+Make sure Node.js (v16 or later) is installed.
+
+npm install
+▶️ Run the Application
+npm run dev
+The app will be available at:
+
+http://localhost:5173
+
+📁 Project Structure
+world_atlas_proj/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+
+🤝 Contributing
+Contributions are welcome!
+Fork the repository
+Create a new branch
+Commit your changes
+Open a Pull Request
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
+### ✅ After pasting this
+Run:
+```bash
+git add README.md
+git commit -m "Update README with project setup guide"
+git push origin main
